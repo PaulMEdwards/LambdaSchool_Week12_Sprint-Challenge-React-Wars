@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Axios from "axios";
 import './App.css';
-import Button from './components/Button';
+// import Button from './components/Button';
 import Display from './components/Display';
 // import CharacterCarousel from './components/Carousel';
 
-const apiuri = `https://swapi.co/api/`;
+const apiuri = `https://swapi.co/api`;
 
 //#region Styled Component Definitions
 const WrapperDiv = styled.div`
@@ -15,10 +15,12 @@ const WrapperDiv = styled.div`
 const H1 = styled.h1`
   color: white;
   text-shadow: -3px -3px 0.25em gray, 3px 3px 0.5em black;
+  margin-bottom: 2em;
 `;
 const H2 = styled.h2`
   color: white;
   text-shadow: -3px -3px 0.25em gray, 3px 3px 0.5em black;
+  margin-bottom: 1.75em;
 `;
 //#endregion Styled Component Definitions
 
@@ -34,51 +36,31 @@ const App = () => {
   useEffect(() => {
     // console.log('run effect');
 
-    async function fetchSWdata(query, setStateFunction) { // jshint ignore:line
+    async function fetchSWdata() { // jshint ignore:line
       // Fetch data
-      await Axios.get(`${apiuri}${query}`)
-        .then((d) => {
-          console.log('d.data: ', d.data);
-          setStateFunction(d.data);
-        })
-        .catch(e => {
-          console.log(e);
-        });
+      try {
+        let promiseSWdata = await Axios.get(`${apiuri}/people/`);
+        console.log('data: ', promiseSWdata);
+        setCharacterData(promiseSWdata.data.results);
+      } catch (error) {
+        console.log(error);
+      }
     }
 
-    fetchSWdata('people/', setCharacterData);
+    fetchSWdata();
+  }, []);
 
-    // function populateImageSources() {
-    //   let i = 0;
-    //   characterData.forEach(() => {
-    //     characterData[i].img_src = `https://starwars-visualguide.com/assets/img/characters/${i+1}.jpg`;
-    //     i++;
-    //   });
-    //   console.log('characterData: ', characterData);
-    // }
-    // populateImageSources();
-  }, [characterData]);
 
   return (
-    /* jshint ignore:start */
     <div className="App">
       <WrapperDiv>
         <H1>React Wars</H1>
-        <Button type="primary">Primary</Button>
-        <Button type="success">Success</Button>
-        <Button type="danger">Danger</Button>
-        <Button type="warning">Warning</Button>
-      </WrapperDiv>
-
-      {/* <CharacterCarousel items={characterData} /> */}
-
-      <WrapperDiv>
         <H2>Characters</H2>
         <Display data={characterData} />
       </WrapperDiv>
     </div>
-    /* jshint ignore:end */
   );
+
 };
 
 export default App;
