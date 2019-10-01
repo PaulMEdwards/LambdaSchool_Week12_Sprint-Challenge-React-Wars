@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e538607.chunk.css",
-    "main.js": "/static/js/main.3185b3ba.chunk.js",
-    "main.js.map": "/static/js/main.3185b3ba.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.621b5bde.chunk.css": "/static/css/2.621b5bde.chunk.css",
-    "static/js/2.2ca94ac9.chunk.js": "/static/js/2.2ca94ac9.chunk.js",
-    "static/js/2.2ca94ac9.chunk.js.map": "/static/js/2.2ca94ac9.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b0a60d1000738b48d89e5bbda6793004.js": "/precache-manifest.b0a60d1000738b48d89e5bbda6793004.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.621b5bde.chunk.css.map": "/static/css/2.621b5bde.chunk.css.map",
-    "static/css/main.8e538607.chunk.css.map": "/static/css/main.8e538607.chunk.css.map",
-    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
-    "static/media/index.css": "/static/media/sw-bg.dff75a1f.jpg"
+    "main.css": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/css/main.d1e03f07.chunk.css",
+    "main.js": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/js/main.3185b3ba.chunk.js",
+    "main.js.map": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/js/main.3185b3ba.chunk.js.map",
+    "runtime~main.js": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/js/runtime~main.74effe56.js",
+    "runtime~main.js.map": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/js/runtime~main.74effe56.js.map",
+    "static/css/2.4c546d27.chunk.css": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/css/2.4c546d27.chunk.css",
+    "static/js/2.9ae19027.chunk.js": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/js/2.9ae19027.chunk.js",
+    "static/js/2.9ae19027.chunk.js.map": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/js/2.9ae19027.chunk.js.map",
+    "index.html": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/index.html",
+    "precache-manifest.3a5f5abe355735f35c9f0fa90a9a0455.js": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/precache-manifest.3a5f5abe355735f35c9f0fa90a9a0455.js",
+    "service-worker.js": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/service-worker.js",
+    "static/css/2.4c546d27.chunk.css.map": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/css/2.4c546d27.chunk.css.map",
+    "static/css/main.d1e03f07.chunk.css.map": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/css/main.d1e03f07.chunk.css.map",
+    "static/media/semantic.min.css": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/index.css": "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/static/media/sw-bg.dff75a1f.jpg"
   }
 }
