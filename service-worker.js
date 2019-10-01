@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/precache-manifest.3a5f5abe355735f35c9f0fa90a9a0455.js"
+  "/LambdaSchool_Week12_Sprint-Challenge-React-Wars/precache-manifest.5c9436c34e5bf43f45da3a78c1d4b2e9.js"
 );
 
 self.addEventListener('message', (event) => {
