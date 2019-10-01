@@ -24,15 +24,25 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+- [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What does it mean to _think_ in react?
+It's a UI Component Library which builds User Interfaces using Components.
 
-- [ ] Describe state.
+- [x] What does it mean to _think_ in react?
 
-- [ ] Describe props.
+Break down sites and pages into a hierarchy of Components and determine the data to pass from Parent Components into Child, Grandchild, etc. Components in a nested manner.
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+- [x] Describe state.
+
+Data that the user interacts with on the web page/site.
+
+- [x] Describe props.
+
+An object containing data which is passed into Components.
+
+- [x] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effect are things that affect something outside the scope of the function being executed, such as API data, timers, logging, manual DOM manipulation. Side effects can be synchronized with state or props changes by passing a dependency array in as the second argument to the effect hook.
 
 ## Project Set Up
 
@@ -68,10 +78,10 @@ Your finished project must include all of the following requirements:
 
 #### Required best practices:
 
-- [ ] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ] Consistent quotation usage.
-- [ ] Spell-check.
+- [x] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [x] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [x] Consistent quotation usage.
+- [x] Spell-check.
 - [ ] Schedule time to review, refine and reassess your work.
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.

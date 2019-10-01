@@ -60,5 +60,3 @@ const Display = (props) => {
 };
 
 export default Display;
-
-// export default { Person, PersonPrimaryData, PersonSecondaryData, PersonTertiaryData };

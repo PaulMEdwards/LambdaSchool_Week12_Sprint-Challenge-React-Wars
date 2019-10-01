@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import Display from './components/Display';
 import styled from 'styled-components';
 import Axios from "axios";
 import './App.css';
-// import Button from './components/Button';
-import Display from './components/Display';
-// import CharacterCarousel from './components/Carousel';
 
 const apiuri = `https://swapi.co/api`;
 
@@ -34,10 +32,7 @@ const App = () => {
   // sync up with, if any.
 
   useEffect(() => {
-    // console.log('run effect');
-
-    async function fetchSWdata() { // jshint ignore:line
-      // Fetch data
+    async function fetchSWdata() {
       try {
         let promiseSWdata = await Axios.get(`${apiuri}/people/`);
         console.log('data: ', promiseSWdata);
@@ -52,6 +47,7 @@ const App = () => {
 
 
   return (
+    /* jshint ignore:start */
     <div className="App">
       <WrapperDiv>
         <H1>React Wars</H1>
@@ -59,6 +55,7 @@ const App = () => {
         <Display data={characterData} />
       </WrapperDiv>
     </div>
+    /* jshint ignore:end */
   );
 
 };
